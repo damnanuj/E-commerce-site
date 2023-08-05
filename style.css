@@ -1,0 +1,95 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    padding: 20px 80px;
+    
+    display: flex;
+    height: 80px;
+    /* background-color: gray; */
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.logo>img{
+    width: 30px;
+}
+.logo>a{
+    color: #FF5151;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+}
+nav>ul>li>a{
+    color: #4F5665;
+    transition: all 0.3s ease-in-out;
+    font-weight: 400;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icons>a{
+    color: #4F5665;
+    font-size: 18px;
+}
+
+.active{
+    color: #FF5151;
+    font-weight: 500;
+}
+nav>ul>li>a:hover, .icons>a:hover {
+    color: #FF5151;
+}
+
+
+
+/* ****************Header Part Ends********** */
+
+
+
+/* Hero Section Starts */
+.hero{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+ 
+   
+}
+.background{
+    /* background-color: blueviolet; */
+    background-image: url("imgs/background.png");
+    width: 90%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 20px;
+}
